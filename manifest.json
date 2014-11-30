@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Mano_programador",
+  "description": "Mano programador, o dialeto da quebrada dos nerd.",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["http://stackoverflow.com/users/*"],
+      "js": ["jquery.js", "myscript.js"]
+    }
+  ]
+
+}
